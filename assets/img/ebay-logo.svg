@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="94.188" height="41.156" viewBox="0 0 94.188 41.156">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5a5a5a;
+        fill-opacity: 0.32;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="315.406" y="608.844" width="94.188" height="41.156" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1.414" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-opacity="0.25"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dy="1"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="Dummy_logo" data-name="Dummy logo" class="cls-1" d="M399.962,608.828l-7.338,15.526-6.791-15.526h-10.4l1.751,3.474a29.524,29.524,0,0,0-3.287-.217c-2.737,0-5.147.434-6.788,1.738-1.754,1.085-2.739,3.148-2.739,6.3h7.228c0-2.063.11-4.017,2.739-4.017s2.958,1.628,2.958,3.8v2.062c-4.162-.109-8.216,0-10.734,1.954a6.225,6.225,0,0,0-4.71-1.737,6.432,6.432,0,0,0-5.915,2.931h-0.111v-13.57h-7.228V623.81a16.929,16.929,0,0,0-3.941-1.194,48.282,48.282,0,0,0-9.969-.868c-17.414,0-19.276,5.32-19.276,11.509,0,7.165,2.192,12.16,19.276,12.16a51.675,51.675,0,0,0,10.078-.98,17.509,17.509,0,0,0,3.832-1.3v5.322h6.9v-2.824H355.6c1.316,2.5,3.287,3.365,6.134,3.365,6.024,0,7.009-5.32,7.23-10.1a8.878,8.878,0,0,0,1.752.109,7.228,7.228,0,0,0,6.79-3.908h0.111l0.327,3.474h6.792c-0.11-1.628-.329-3.257-0.329-4.885v-6.84l2.956,5.972v12.7h9.53v-12.7l12.7-24h-9.638Zm-65.279,16.828c6.353,0,6.135,3.149,6.135,5.321H328.77C328.77,629.132,328.661,625.656,334.683,625.656Zm10.078,11.509H340.38c0,1.953-.987,4.125-5.7,4.125-5.8,0-5.913-4.018-5.913-6.731h19.823v2.606h-3.832Zm17.086-1.846c0,6.514-.437,9.228-3.066,9.228-2.52,0-2.96-2.714-2.96-9.228,0-5.1,0-8.685,2.96-8.685C361.956,626.634,361.847,630.217,361.847,635.319Zm11.828-.76c-2.408,0-2.737-2.279-2.737-4.125,0-4.561,2.737-4.235,6.353-4.451C377.291,628.8,377.947,634.559,373.675,634.559Z" transform="translate(-315.406 -608.844)"/>
+</svg>

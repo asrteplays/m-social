@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.84" height="41.187" viewBox="0 0 77.84 41.187">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5a5a5a;
+        fill-opacity: 0.32;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1010.16" y="608.813" width="77.84" height="41.187" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1.414" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-opacity="0.25"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2" dy="1"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" mode="multiply" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="Dummy_logo" data-name="Dummy logo" class="cls-1" d="M1078.09,648.043l-4.51-7.779h-14.47l5.12-8.37h3.93l-4.38-7.492-14.26,23.624h-39.37l9.25-15.254h-6.86l5.08-8.387h29.49l-5.1,8.4h-12.92l-3.93,6.884h19.56l18.93-30.846L1088,648.043h-9.91Zm-56.25-30.526,5.37-8.673,31.32-.017-5.4,8.69h-31.29Z" transform="translate(-1010.16 -608.813)"/>
+</svg>
