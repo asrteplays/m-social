@@ -810,6 +810,7 @@ body {
   /* Hero */
   .hero {
     height: 500px;
+    padding-bottom: 30px;
   }
 
   .hero-content__title {
